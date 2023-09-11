@@ -1,0 +1,101 @@
+<!-- 
+    HTML 1.0 1991
+    HTML 2.0 1995
+    HTML 4.01 1999 -> major modification
+    HTML 5 2012
+
+    Develop a static webpages
+    .html
+
+    Shortcuts
+    Shift + 1 => Enter => Strucuture of the HTML document
+
+    Syntax 
+    <opening tag attrName="attrValue"> Content </closing tag>
+ -->
+
+<!DOCTYPE html> <!-- Version of HTML-->
+<html> <!--Entire document-->
+
+<head> <!-- Information of webpage -->
+
+</head>
+
+<body> <!-- Content of the webpage -->
+    <a href="#demo">Move to bottom of the page</a>
+    <a href="#demo2">Move to middle of the page</a>
+    <h1>Hello</h1>
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <p>Hello</p>
+
+    <p>This text is <b>bold</b> </p>
+    <p>This text is <i>italic</i> </p>
+    <p>This text is <u>underline</u> </p>
+    <p>This text is <big>big</big> </p>
+    <p>This text is <small>bold</small> </p>
+
+    <p>(a+b)<sup>2</sup></p>
+    <p>C<sub>6</sub>H<sub>6</sub></p>
+
+    <ol type="i" start="5"> <!-- type = 1 | A | a | I | i-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <ul type="square"> <!-- type = disc| circle | square -->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <dl id="demo2"> <!-- definition list-->
+        <dt>HTML</dt> <!-- definition term-->
+        <dd>HTML stands for HyperText Markup Language</dd> <!--data definition-->
+        <dt>dt tag</dt>
+        <dd>dd tag</dd>
+    </dl>
+
+    <!-- Navigate from one to another  -->
+    <!-- 1. Text URL -->
+    <a href="https://www.ethnus.com">Ethnus</a>
+    <a href="https://vit.ac.in">VIT</a>
+    <a href="https://www.flipkart.com">Flipkart</a>
+    <a href="https://www.meesho.com" target="_blank">Meesho</a>
+    <a href="https://www.myntra.com" target="_self">Myntra</a>
+
+    <!-- 2. Image URL -->
+    <a href="https://www.instagram.com">
+        <img src="./VIT logo.png" alt="Flower.jpg" height="300" width="300" />
+    </a>
+
+    <!-- 3. Mail link -->
+    <a href="mailto:vitinternship@ethnus.com">Send email to us</a>
+
+    <!-- 4. Bookmark link-->
+    <a href="#">Top of the page</a>
+    <p id="demo"></p>
+
+    <!-- cellpadding -> space between the content of the cell and border of the cell
+        cellspacing -> space between the two cells
+    -->
+    <table border="1" bordercolor="green" bgcolor="red" cellpadding="10" cellspacing="30">
+        <caption>Table title</caption>
+        <tr>
+            <td>R1C1</td>
+            <td>R1C2</td>
+        </tr>
+        <tr>
+            <td>R2C1</td>
+            <td>R2C2</td>
+        </tr>
+    </table>
+</body>
+
+</html>
